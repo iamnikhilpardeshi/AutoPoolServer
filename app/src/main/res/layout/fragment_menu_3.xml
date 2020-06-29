@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CHANGE PASSWORD"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NEW PASSWORD"
+        android:inputType="textPassword"
+        android:textSize="15sp" />
+
+
+    <Button
+        android:id="@+id/btsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/color_menu_buttonback"
+        android:text="SUBMIT"
+        android:textColor="#ffffff" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CHANGE LOCATION"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner_src"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btsubmitlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/color_menu_buttonback"
+        android:text="SUBMIT"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.project.autopooldriver.LoginActivity">
+
+    <TextView
+        android:id="@+id/tv_title_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+              android:gravity="center"
+        android:padding="20dp"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Name"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/all_labels"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.7"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Contact"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/all_labels"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_contact"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.7"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Email"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/all_labels"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.7"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="City"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/all_labels"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_city"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.7"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Vehicle no"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/all_labels"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_vehicleno"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.7"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Username"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/all_labels"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_username"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.7"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="Password"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/all_labels"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_password"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.7"
+                    android:background="@color/white"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:text="" />
+            </LinearLayout>
+
+            <!-- Login Button -->
+
+            <Button
+                android:id="@+id/bt_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/button_ripple"
+                android:text="SUBMIT"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
